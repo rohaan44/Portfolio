@@ -1,0 +1,343 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    position: sticky;
+    width: 100%;
+    top: 0px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(18, 18, 62);
+
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0px 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(153, 153, 226);
+}
+.left{
+    font-size: 1.5rem;
+}
+
+/* Sections */
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 170px;
+}
+.firstSection > div{
+    width: 30%;
+}
+.leftSection{
+    font-size: 2rem;
+    margin-top: 30px;
+}
+#element{
+    color:  rgb(170, 107, 228);
+}
+.purple{
+    color: rgb(170, 107, 228);
+}
+.rightSection img{
+width: 80%;
+}
+hr{
+    background-color: rgb(170, 107, 228);
+    border: 0px;
+    height: 1px;
+    margin: 50px;
+}
+.secondSection{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+.secondSection .text-grey{
+    color: grey;
+    font-size: 12px;
+}
+.secondSection .box{
+    height: 2px;
+    background-color: white;
+    width: 80vw;
+    display: flex;
+    margin: 56px 0px;
+
+    justify-content: center;
+}
+.secondSection .vertical{
+    height: 95px;
+    width: 1px;
+    background-color: white;
+    margin-inline :120px; ;
+}
+.image-top{
+    width: 35px;
+    position: relative;
+    bottom: 40px;
+    right:20px;
+}
+.image-top-java{
+    width: 70px;
+    position: relative;
+    bottom: 60px;
+    right: 35px;
+}
+.vertical-title-java{
+    position: relative;
+    top: 15px;
+    width: 150px;
+}
+.vertical-desc-java{
+    position: relative;
+    top: 23px;
+    color: grey;
+    width: 180px;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.vertical-title{
+    position: relative;
+    top: 50px;
+    width: 150px;
+}
+.vertical-desc{
+    position: relative;
+    top: 60px;
+    color: grey;
+    width: 180px;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+}
+/* Section Third */
+.center{
+    margin-top: 8%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thirdSection{
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+    /* //margin:0px 150px ; */
+}
+
+.image{
+   width: 20%;
+}
+.image img{
+    width: 300px;
+}
+
+.about{
+width: 60%;
+text-align: justify;
+display: flex;
+flex-direction: column;
+}
+
+.about h1{
+    margin-bottom: 22px;
+}
+.about p{
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 65px;
+}
+.about .down{
+    margin-top: 40px;
+   padding: 10px;
+   width: 120px;  
+   background-color: transparent;
+   border: 2px solid white ;
+   color: rgb(170, 107, 228);
+   font-family: 'Montserrat';
+   font-size: 15px;
+}
+.about .down:hover{
+    font-size: 15px;
+    background-color:  rgb(170, 107, 228);
+    color:  white;
+}
+/* FourSection */
+.fourSection{
+     display: flex;
+    justify-content: center; 
+    height: 80vh;
+ margin: 1% 0px; 
+align-items: center;
+flex-direction: column;
+
+}
+.fourSection::before{
+    content: "";
+    background: url('pexels-negative-space-97077.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 95%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.30;
+    border-radius: 50px;
+}
+.first{
+    width: 65%;
+    height: 150px;
+}
+.first h1{
+text-align: center;
+margin-bottom: 20px;
+font-size: 2rem;
+}
+.first p{
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 15px;
+    font-weight: bold;
+}
+.boxCenter{
+     display: flex;
+     flex-direction: row; 
+     justify-content: space-around;
+     width: 100%;
+     margin-top: 5%;
+}
+.boxCenter a{
+    text-decoration: none;
+    color: white;
+}
+.container img{
+    width: 50px;
+margin: 10px 0px;
+}
+.container
+{   border: 2px solid white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+   height: 200px;
+    background-color: rgb(1, 1, 20);
+    width: 300px;
+    overflow: hidden;
+    font-size: 10px;
+}
+.work-desc{
+    text-align: center;
+    margin: 20px 0px
+}
+
+/* Section five */
+
+.sectionCenter{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.fiveSection{
+    height: 60vh;
+    margin: 12% 0px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+
+}
+.fiveSection .mono{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+.contact{
+    width: 30%;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin: 55px 0px;
+}
+.work-together{
+    display: flex;
+flex-direction: column;
+width: 50%;
+}
+#para-workTogether{
+    font-family: 'Montserrat';
+}
+#highlight{
+    font-size: 32px;
+}
+.email{
+    width: 100%;
+    height: 60px;
+border-radius: 8px;
+display: flex;
+    flex-direction: row;
+    background-color: rgb(14 14 69);
+
+}
+.msg{
+    color: white;
+font-size: 50px;
+}
+.chat
+{display: flex;
+    flex-direction: column;
+}
+.chat-p{
+    font-size: 10px;
+    color: grey;
+    font-family: 'Montserrat';
+}
+.email-row{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.call{
+    width: 100%;
+    height: 60px;
+border-radius: 8px;
+display: flex;
+    flex-direction: row;
+    background-color: rgb(14 14 69);
+}
+.call-row{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
